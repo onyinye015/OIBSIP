@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.topnav{
+   
+    background: linear-gradient(to right, white, blue);
+    color: white;
+    
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px; 
+}
+.num{
+    margin: 0 20px 0 10px;
+    
+}
+.mail{
+    border-left: 3px solid ;
+    margin: 0 10px 0 15px;
+}
+.register{
+    outline: auto;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/*nav */
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+li{
+  margin: 5px 20px 20px 0;
+}
+img{
+    width: 3rem;
+    height: 2rem;
+ 
+}
+.logo{
+    display: flex;
+}
+.active{
+    background-color: red;
+    padding:0 10px 2px 10px;
+}
+
+
+.hero{
+    height: 70vh;
+    margin-top: 10px;
+    background: url('images/hair.jpg') center/cover no-repeat;
+    /* filter: brightness(0.7); */
+    padding: 20px;
+    position: relative;
+    
+    
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for darkness */
+    
+}
+.container1{
+    color: white;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    backdrop-filter: blur(3px); /* Apply a blur to the background */
+    z-index: 1;
+    margin-top: 100px;
+    border-left: 3px solid blue;
+    
+}
+.container1 h3{
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.container1 H1{
+
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.container1 p{
+    margin-bottom: 20px;
+
+}
+span{
+    color: rgba(255, 255, 255, 0.471);
+}
+
+
+
+.btn{
+    background: linear-gradient(to right, white, blue);
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    color: white;
+    
+}
+.bt{
+    outline: auto;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: none;
+    margin-left: 20px;
+}
+
+.section{
+    background: linear-gradient(to right, white, blue);
+    color: white;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    
+}
+.services{
+    margin-bottom: 80px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head h2{
+    margin-left: 30px;
+}
+.about{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.text{
+    font-weight: 700;
+
+}
+.text h1{
+    margin-bottom: 30px;
+    border-bottom: 4px solid blue; /* Adjust color and thickness as needed */
+    padding-bottom: 5px; /* Adjust spacing as needed */
+    display: inline-block;
+    
+    font-size: 2.5rem;
+    
+}
+.image img{
+    width:70%;
+    height: 40vh;
+}
+.text h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: x-largeea1;
+}
+.about .container2{
+    display: flex;
+}
+
+.text p{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.services1{
+    background: rgb(178, 177, 177);
+    margin-bottom: 50px;
+}
+.container4{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    
+}
+
+.container4 h2{
+    margin-bottom: 30px;
+    border-bottom: 4px solid blue; /* Adjust color and thickness as needed */
+    padding-bottom: 5px; /* Adjust spacing as needed */
+    display: inline-block;
+}
+
+.Images img{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 25%;
+    height: 30vh;
+
+}
+
+.EXP{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.EXP h1{
+    background: white;
+    border-radius: 30px;
+    padding: 10px 50px;
+    font-size: 1.2em;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.my{
+    margin-top: 3%;
+}
+.icon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: -140px; */
+  margin-top: -65px;
+ 
+}
+i{
+    color: white;
+    background-color: blue;
+    border-radius: 100%;
+    width: 40px;
+    height: 30px;
+    /* padding: 15px; */
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+.bx{
+    margin-left: -215px;
+}
